@@ -1,11 +1,16 @@
 
 import './App.css';
 
+// import pages from components folder
+import Home from "./components/Home";
+import Navigation from "./components/Navigation";
+
+
 function App() {
   return (
     <div className="App">
-      <h1>Text h1</h1>
-      <p>text</p>
+      <Navigation />
+      <Home />
     </div>
   );
 }
