@@ -1,12 +1,29 @@
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+section {
+    display: flex;
+}
+
 span {
     font-weight:bold;
 }
-
-.image {
-    width: 20vw;
-    height: 20vw;
+ p {
+    color: var(--background);
+    width: 40vw;
+    margin: 1rem;
+ }
+ 
+ .image {
+    width: 60vw;
+    height: 50vw;
+    margin: 1rem;
     
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    border-radius: .5rem;
 }
