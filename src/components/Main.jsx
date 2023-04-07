@@ -49,8 +49,9 @@ export default function Main() {
           className="image"
           style={{ backgroundImage: `url(${picture3})` }}
         ></div>
+        <Button />
       </section>
-
+      <hr />
       <section>
         
       </section>
