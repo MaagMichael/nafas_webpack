@@ -2,14 +2,14 @@
 import './App.css';
 
 // import pages from components folder
-import Home from "./components/Home";
+import { Home } from "./components/Home";
 import Navigation from "./components/Navigation";
 
 
 function App() {
   return (
     <div className="App">
-      <Navigation />
+      {/* <Navigation /> */}
       <Home />
     </div>
   );
