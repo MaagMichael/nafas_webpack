@@ -2,17 +2,11 @@ span {
     font-weight:bold;
 }
 
-.picture1 {
-    background-image: url("../../public/images/Logo_Nafas.jpg");
-    background-image: url("../images/Logo_Nafas.jpg");
-    background-image: url("https://www.adac.de/-/media/images/touristik/staedte/muenchen-1912-926x383.jpg?bc=white&as=0&mh=315&mw=762&hash=F582E2E778ED6BACAE824F7A08320FF2");
-    /* background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; */
-}
-
 .image {
-    width: 30%;
-    height: 30%;
-
+    width: 20vw;
+    height: 20vw;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }

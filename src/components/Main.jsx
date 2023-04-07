@@ -1,12 +1,15 @@
 import React from "react";
 import "./Main.css";
 
+// import images for background images
+import picture1 from "../images/Logo_Nafas.jpg"; 
+
 export default function Main() {
   return (
     <div className="intro">
       
-      <div className="picture1 image"></div>
-      <img src="./images/Logo_Nafas.jpg" alt="" srcset="" />
+      <div className="image" style={{ backgroundImage:`url(${picture1})` }}></div>
+      
       <p><span>Platzhalter-Text1</span>
         Lorem ipsum dolor sit amet consectetur adipisicing
         elit. Nam impedit eum tenetur architecto odit possimus explicabo ea?
