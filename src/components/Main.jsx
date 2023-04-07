@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./Main.css";
+import Button from "./Button";
 
 // import images for background images
 import picture1 from "../images/picture1.png";
@@ -26,6 +27,7 @@ export default function Main() {
           laudantium beatae consequatur magnam! Beatae dolorum non facilis sequi
           numquam id architecto hic.
         </p>
+        <Button />
       </section>
       <hr />
       <section>
@@ -49,7 +51,9 @@ export default function Main() {
         ></div>
       </section>
 
-      <section></section>
+      <section>
+        
+      </section>
     </main>
   );
 }
