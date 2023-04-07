@@ -6,14 +6,15 @@ main {
 
 section {
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 span {
     font-weight:bold;
 }
- p {
+ h1,p {
     color: var(--background);
-    width: 40vw;
     margin: 1rem;
  }
  
