@@ -6,7 +6,7 @@ export default function Main() {
     <div className="intro">
       
       <div className="picture1 image"></div>
-      <img src="./images/N" alt="" srcset="" />
+      <img src="./images/Logo_Nafas.jpg" alt="" srcset="" />
       <p><span>Platzhalter-Text1</span>
         Lorem ipsum dolor sit amet consectetur adipisicing
         elit. Nam impedit eum tenetur architecto odit possimus explicabo ea?

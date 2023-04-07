@@ -2,15 +2,16 @@
 import './App.css';
 
 // import pages from components folder
-import { Home } from "./components/Home";
 import Navigation from "./components/Navigation";
+import Main from "./components/Main";
+
 
 
 function App() {
   return (
     <div className="App">
       {/* <Navigation /> */}
-      <Home />
+      <Main />
     </div>
   );
 }
