@@ -5,6 +5,7 @@
 [Link to customer Instagram](https://www.instagram.com/nafas.muenchen/)
 
 ### Within ReactJS used as:
+### - JSON file as database
 #### - useState
 
 
