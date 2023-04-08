@@ -6,6 +6,7 @@
   box-sizing: border-box;
 }
 
+/* https://html-color.codes/gold */
 :root {
   --background: #085372;
   --main-text: #fff;
