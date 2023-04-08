@@ -2,22 +2,20 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import "./NavigationBar.css";
+import Button from "./Button";
 
 const NavigationBar = () => {
     return (
       <nav>
+        <img src="../images/Logo_Nafas.jpg" alt="Logo Nafas" width="100"/>
         <ul>
           <li><Link to="/">Home</Link></li>
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/services">Services</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
+          <li><Link to="/menu">Menu</Link></li>
+          <li><Link to="/packages">Pakete</Link></li>
+          <li><Link to="/contact">Kontakt</Link></li>
         </ul>
-        <img src="./nafas_logo.jpg" alt="Logo Nafas" width="100"/>
-        <h3>Home</h3>
-        <h3>Menu</h3>
-        <h3>Pakete</h3>
-        <h3>Kontakt</h3>
-        <button>Anfrage</button>
+        
+        <Button />
 
       </nav>
       
