@@ -7,7 +7,7 @@
 ### Within ReactJS used as:
 #### - JSON file as database
 #### - useState()
-#### - React Router
+#### - React Router (npm install react-router-dom)
 
 
 ### Unsolved challenges:
