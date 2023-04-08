@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--background);
+  }
+
+  .links {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .links a {
+    color: var(--gold);
+  }
+  .request a {
+    border: 5px solid var(--gold);
+    padding: 0.5rem;
+    border-radius: 1rem;
+    /* width: 15%; */
+    color: var(--gold);
+    background-color: var(--background);
+  }
