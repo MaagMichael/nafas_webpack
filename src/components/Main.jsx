@@ -9,6 +9,13 @@ import picture2 from "../images/picture2.png";
 import picture3 from "../images/picture3.png";
 
 export default function Main() {
+  const playMovie = (e) => {
+    e.target.play();
+  };
+  const stopMovie = (e) => {
+    e.target.pause();
+  };
+
   return (
     <main>
       <section>
@@ -29,7 +36,9 @@ export default function Main() {
         </p>
         <Button />
       </section>
+
       <hr />
+      
       <section>
         <div
           className="image"
@@ -49,11 +58,34 @@ export default function Main() {
           className="image"
           style={{ backgroundImage: `url(${picture3})` }}
         ></div>
+
         <Button />
+
+        <div className="video">
+          <video
+            controls
+            muted="true"
+            // mobile version
+            // onClick={playMovie}
+            // PC version
+            onMouseOver={playMovie}
+            onMouseOut={stopMovie}
+          >
+            <source src="images/video_nafas.mp4" type="video/mp4" />
+          </video>
+        </div>
       </section>
+
       <hr />
+
       <section>
-        
+        <h1>Statistik</h1>
+      </section>
+
+      <hr />
+
+      <section>
+        <h1>Bilderkarusell</h1>
       </section>
     </main>
   );
