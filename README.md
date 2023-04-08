@@ -6,7 +6,8 @@
 
 ### Within ReactJS used as:
 #### - JSON file as database
-#### - useState
+#### - useState()
+#### - React Router
 
 
 ### Unsolved challenges:
