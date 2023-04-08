@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import "./App.css";
 
 // import pages from components folder
@@ -12,10 +12,10 @@ function App() {
       <Router>
         <NavigationBar />
         <Routes>
-          <Route exact path="/" component={Main} />
-          <Route path="/menu" component={Menu} />
-          {/* <Route path="/packages" component={Packages} /> */}
-          {/* <Route path="/contact" component={Contact} /> */}
+          <Route exact path="/" element={<Main />} />
+          <Route path="/menu" element={<Menu />} />
+          {/* <Route path="/packages" element={<Packages />} /> */}
+          {/* <Route path="/contact" element={<Contact />} /> */}
         </Routes>
       </Router>
     </div>
