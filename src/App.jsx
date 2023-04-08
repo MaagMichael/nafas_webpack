@@ -5,7 +5,8 @@ import "./App.css";
 import NavigationBar from "./components/NavigationBar";
 import Main from "./components/Main";
 import Menu from "./components/Menu";
-
+import Packages from "./components/Packages";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
