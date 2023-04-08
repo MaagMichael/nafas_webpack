@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 /* https://html-color.codes/gold */
@@ -14,9 +15,5 @@
   /* --gold: #ffb302; */
   /* --gold: #ffb700; */
   /* --gold: #ffc000; */
-}
-
-h1 {
-  font-family: "Roboto", sans-serif;
 }
 
