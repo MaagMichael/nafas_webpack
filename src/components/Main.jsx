@@ -2,6 +2,7 @@ import React from "react";
 
 import "./Main.css";
 import Button from "./Button";
+import Slider from "./Slider";
 
 // import images for background images
 import picture1 from "../images/picture1.png";
@@ -85,7 +86,9 @@ export default function Main() {
       <hr />
 
       <section>
+      {/* https://www.kindacode.com/article/react-how-to-create-an-image-carousel-from-scratch/ */}
         <h1>Bilderkarusell</h1>
+        <Slider/>
       </section>
     </main>
   );
