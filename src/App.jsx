@@ -2,7 +2,7 @@
 import './App.css';
 
 // import pages from components folder
-import Navigation from "./components/Navigation";
+import NavigationBar from "./components/NavigationBar";
 import Main from "./components/Main";
 
 
@@ -10,7 +10,7 @@ import Main from "./components/Main";
 function App() {
   return (
     <div className="App">
-      {/* <Navigation /> */}
+      {/* <NavigationBar /> */}
       <Main />
     </div>
   );
