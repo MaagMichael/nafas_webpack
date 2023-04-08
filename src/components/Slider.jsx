@@ -11,23 +11,38 @@ const photos = [
   {
     id: 'p1',
     title: 'Photo One',
-    url: 'https://images.unsplash.com/photo-1671415366359-393861a1f57e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80',
+    url: 'images/slider 1.jpg',
   },
   {
     id: 'p2',
     title: 'Photo Two',
-    url: 'https://images.unsplash.com/photo-1663857045607-4d10f1e87a83?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+    url: 'images/slider 2.jpg',
   },
   {
     id: 'p3',
     title: 'Photo Three',
-    url: 'https://images.unsplash.com/photo-1669923804952-c72912e9250e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+    url: 'images/slider 3.jpg',
   },
   {
     id: 'p4',
     title: 'Photo Four',
-    url: 'https://images.unsplash.com/photo-1671052086072-5eed9562b721?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1228&q=80',
+    url: 'images/slider 4.jpg',
   },
+  {
+    id: 'p5',
+    title: 'Photo',
+    url: 'images/slider 5.jpg',
+  },
+  {
+    id: 'p6',
+    title: 'Photo',
+    url: 'images/slider 6.jpg',
+  },
+  {
+    id: 'p7',
+    title: 'Photo',
+    url: 'images/slider 7.jpg',
+  }
 ];
 
 
@@ -64,6 +79,7 @@ export default function Slider() {
           >
             <img src={photo.url} alt={photo.title} className='photo' />
             <div className='caption'>{photo.title}</div>
+            <div className="shade"></div>
             {/* {console.log(photo.url)}; */}
           </div>
         ))}
