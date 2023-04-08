@@ -85,9 +85,7 @@ export default function Main() {
 
       <hr />
 
-      <section>
-      {/* https://www.kindacode.com/article/react-how-to-create-an-image-carousel-from-scratch/ */}
-        <h1>Bilderkarusell</h1>
+      <section>      
         <Slider/>
       </section>
     </main>
