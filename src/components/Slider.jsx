@@ -10,38 +10,63 @@ import "./Slider.css";
 const photos = [
   {
     id: 'p1',
-    title: 'Photo One',
+    title: 'Photo 1',
     url: 'images/slider 1.jpg',
   },
   {
     id: 'p2',
-    title: 'Photo Two',
+    title: 'Photo 2',
     url: 'images/slider 2.jpg',
   },
   {
     id: 'p3',
-    title: 'Photo Three',
+    title: 'Photo 3',
     url: 'images/slider 3.jpg',
   },
   {
     id: 'p4',
-    title: 'Photo Four',
+    title: 'Photo 4',
     url: 'images/slider 4.jpg',
   },
   {
     id: 'p5',
-    title: 'Photo',
+    title: 'Photo 5',
     url: 'images/slider 5.jpg',
   },
   {
     id: 'p6',
-    title: 'Photo',
+    title: 'Photo 6',
     url: 'images/slider 6.jpg',
   },
   {
     id: 'p7',
-    title: 'Photo',
+    title: 'Photo 7',
     url: 'images/slider 7.jpg',
+  },
+  {
+    id: 'p8',
+    title: 'Photo 8',
+    url: 'images/slider 8.jpg',
+  },
+  {
+    id: 'p9',
+    title: 'Photo 9',
+    url: 'images/slider 9.jpg',
+  },
+  {
+    id: 'p10',
+    title: 'Photo 10',
+    url: 'images/slider 10.jpg',
+  },
+  {
+    id: 'p11',
+    title: 'Photo 11',
+    url: 'images/slider 11.jpg',
+  },
+  {
+    id: 'p12',
+    title: 'Photo 12',
+    url: 'images/slider 12.jpg',
   }
 ];
 
@@ -78,8 +103,10 @@ export default function Slider() {
             }
           >
             <img src={photo.url} alt={photo.title} className='photo' />
-            <div className='caption'>{photo.title}</div>
+            {/* background shade to show caption */}
             <div className="shade"></div>
+            {/* name of picture from db */}
+            <div className='caption'>{photo.title}</div>
             {/* {console.log(photo.url)}; */}
           </div>
         ))}
