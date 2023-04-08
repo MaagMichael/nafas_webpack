@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "./NavigationBar.css";
-import Button from "./Button";
 
 const NavigationBar = () => {
   return (
