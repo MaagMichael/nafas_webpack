@@ -6,6 +6,8 @@ import NavigationBar from "./components/NavigationBar";
 import Main from "./components/Main";
 import Menu from "./components/Menu";
 
+import Menu from "./components/Menu";
+
 function App() {
   return (
     <div className="App">
@@ -17,6 +19,7 @@ function App() {
           {/* <Route path="/packages" element={<Packages />} /> */}
           {/* <Route path="/contact" element={<Contact />} /> */}
         </Routes>
+        <NavigationBar />
       </Router>
     </div>
   );
