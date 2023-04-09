@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 
 import "./Menu.css";
 // read in database
@@ -26,6 +27,7 @@ export default function Menu() {
             </div>
           );
         })}
+        <Button />
     </div>
   );
 }
