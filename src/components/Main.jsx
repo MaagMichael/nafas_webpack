@@ -72,7 +72,7 @@ export default function Main() {
             onMouseOver={playMovie}
             onMouseOut={stopMovie}
           >
-            <source src="images/video_nafas.mp4" type="video/mp4" />
+            <source src= "images/video_nafas.mp4" type="video/mp4"/>
           </video>
         </div>
       </section>

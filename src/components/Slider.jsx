@@ -102,7 +102,7 @@ export default function Slider() {
               photos[currentIndex].id === photo.id ? 'fade' : 'slide fade'
             }
           >
-            <img src={photo.url} alt={photo.title} className='photo' />
+            <img src={process.env.PUBLIC_URL + photo.url} alt={photo.title} className='photo' />
             {/* background shade to show caption */}
             <div className="shade"></div>
             {/* name of picture from db */}
