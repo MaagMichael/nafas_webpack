@@ -15,6 +15,7 @@ export default function Menu() {
 
       <div className="card_section">
         {Dishes &&
+          // https://upmostly.com/tutorials/react-filter-filtering-arrays-in-react-with-examples
           // category filter along Dips, Salate, Teigwaren, Extra, Dessert
           // package filter along Aladin, 1001 Nacht, Sahara
           Dishes.filter((dish) => dish.package.includes("Aladin")).map(
