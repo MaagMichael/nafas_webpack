@@ -27,7 +27,7 @@ export default function Menu() {
                   onClick={() => infoDetail(dish.id)}
                 >
                   {/* images from URL */}
-                  <img src={dish.URL} className="card_image" alt="dish" />
+                  <img src={process.env.PUBLIC_URL + dish.URL} className="card_image" alt="dish" />
                   {/* text on overlay banner */}
                   <div class="card_overlay">
                     {dish.name} <br />( {dish.category} )
