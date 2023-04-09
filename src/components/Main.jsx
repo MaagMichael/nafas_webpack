@@ -22,7 +22,7 @@ export default function Main() {
       <section>
         {/* https://upmostly.com/tutorials/react-background-image */}
         <div
-          className="image"
+          className="main_image"
           style={{ backgroundImage: `url(${picture1})` }}
         ></div>
 
@@ -42,7 +42,7 @@ export default function Main() {
       
       <section>
         <div
-          className="image"
+          className="main_image"
           style={{ backgroundImage: `url(${picture2})` }}
         ></div>
         <h1>Anlässe</h1>
@@ -56,13 +56,13 @@ export default function Main() {
           numquam id architecto hic.
         </p>
         <div
-          className="image"
+          className="main_image"
           style={{ backgroundImage: `url(${picture3})` }}
         ></div>
 
         <Button />
 
-        <div className="video">
+        <div className="main_video">
           <video
             controls
             muted="true"
