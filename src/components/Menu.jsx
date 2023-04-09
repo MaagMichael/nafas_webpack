@@ -19,7 +19,7 @@ export default function Menu() {
               
               <img src={dish.URL} className="image" alt="dish" />
               <div class="overlay">
-                {dish.name} ( {dish.category} )
+                {dish.name} <br />( {dish.category} )
               </div>
             </div>
           );
