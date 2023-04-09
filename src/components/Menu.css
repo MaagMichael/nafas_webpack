@@ -1,0 +1,49 @@
+.card_section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+
+  .card_container{
+    /* position: relative; */
+    width: 10vw;
+    margin: 1rem;
+    /* position: relative;
+    border: 1px solid red;
+    width: 12rem;
+    height: 18rem;
+    border-radius: .5rem;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    margin: 1rem;
+    /* overflow: hidden;  */
+  }
+  .image {
+    /* object-fit: cover;
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: .5rem; */
+  }
+  .overlay {
+    /* position: absolute;
+    bottom: 0;  */
+    /* Black see-through */
+    /* background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 100%; */
+
+    /* transition: .5s ease; */
+    /* opacity:0; */
+
+    /* color: white;
+    font-size: 1rem;
+    padding: .5rem;
+    text-align: left;
+    border-radius: 0 0 .5rem .5rem; */
+  }
+  
+  .container:hover .overlay {
+    /* opacity: 1; */
+  } 

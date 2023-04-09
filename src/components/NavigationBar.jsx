@@ -11,7 +11,7 @@ const NavigationBar = () => {
       <div className="links">
         <Link to="/">Home</Link>
         <Link to="/menu">Menu</Link>
-        <Link to="/packages">Pakete</Link>
+        {/* <Link to="/packages">Pakete</Link> */}
         <Link to="/contact">Kontakt</Link>
       </div>
 

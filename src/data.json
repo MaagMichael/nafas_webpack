@@ -50,7 +50,7 @@
   {
     "id": 6,
     "name": "Fasuliye",
-    "URL": "images/Salate.jpg",
+    "URL": "images/Fasuliye.jpg",
     "ingredients": ["", "","",""],
     "package" : ["Aladin","1001 Nacht","Sahara"],
     "category" : "Salate"
