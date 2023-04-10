@@ -6,6 +6,7 @@ import "./CardFilter.css";
 import Dishes from "../data.json";
 
 const CardFilter = (props) => {
+  
   // const package is reserved in strict mode
   const bundle = props.package;
   const cluster = props.category;
