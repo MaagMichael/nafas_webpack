@@ -4,6 +4,7 @@ footer {
     align-items: center;
     background-color: var(--background);
     padding: 0.5rem;
+    min-height: 4rem;
   }
 
   .address {
