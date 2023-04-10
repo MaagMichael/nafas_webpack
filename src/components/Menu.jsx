@@ -27,7 +27,7 @@ export default function Menu() {
       <CardFilter package="Optional" category="Dessert" />
       <Button />
 
-      <p>bitte beachten:</p>
+      <span><p>Bitte beachten:</p></span>
       <p><span>Platzhalter-Menu 2</span>
         Bitte weisen Sie uns auf mögliche Allergien hin. Pakete können wahlweise
         kombiniert und erweitert werden. Platten und Desserts können nicht ohne
