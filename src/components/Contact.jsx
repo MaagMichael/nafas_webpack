@@ -5,6 +5,6 @@ import "./Contact.css";
 
 export default function Contact() {
   return (
-    <h1>Kontakt</h1>
+    <h1>Kontakt (Platzhalter Kontakt)</h1>
   );
 }

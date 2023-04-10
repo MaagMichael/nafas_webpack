@@ -25,9 +25,10 @@ export default function Main() {
           className="main_image"
           style={{ backgroundImage: `url(${picture1})` }}
         ></div>
+        <div className="main overlay">Bild 1</div>
 
         <p>
-          <span>Platzhalter-Text1</span>
+          <span>Platzhalter-Home 1</span>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam impedit
           eum tenetur architecto odit possimus explicabo ea? Deleniti tempora
           impedit modi autem error corrupti ut eveniet inventore possimus nulla
@@ -45,9 +46,10 @@ export default function Main() {
           className="main_image"
           style={{ backgroundImage: `url(${picture2})` }}
         ></div>
+        <div className="main overlay">Bild 2</div>
         <h1>Anlässe</h1>
         <p>
-          <span>Platzhalter-Text2</span>
+          <span>Platzhalter-Home 2</span>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam impedit
           eum tenetur architecto odit possimus explicabo ea? Deleniti tempora
           impedit modi autem error corrupti ut eveniet inventore possimus nulla
@@ -59,6 +61,7 @@ export default function Main() {
           className="main_image"
           style={{ backgroundImage: `url(${picture3})` }}
         ></div>
+        <div className="main overlay">Bild 3</div>
 
         <Button />
 
@@ -74,19 +77,21 @@ export default function Main() {
           >
             <source src= "images/video_nafas.mp4" type="video/mp4"/>
           </video>
+          <div className="main overlay">Video 1</div>
         </div>
       </section>
 
       <hr />
 
       <section>
-        <h1>Statistik</h1>
+        <h1>Statistik (Platzhalter Home 3)</h1>
       </section>
 
       <hr />
 
       <section>      
         <Slider/>
+        <div className="main overlay">Bild(er) 4</div>
       </section>
     </main>
   );
