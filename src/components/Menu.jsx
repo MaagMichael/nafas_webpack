@@ -11,7 +11,7 @@ export default function Menu() {
       {/* package filter along Aladin, 1001 Nacht, Sahara */}
 
       <p>Paket Aladin (für 10 Personen)</p>
-      <CardFilter package="Aladin" category="" />
+      <CardFilter package="Aladin" category="" className="frame" />
       <Button />
 
       <p>Paket Aladin (für 10 Personen)</p>
@@ -27,8 +27,11 @@ export default function Menu() {
       <CardFilter package="Optional" category="Dessert" />
       <Button />
 
-      <span><p>Bitte beachten:</p></span>
-      <p><span>Platzhalter-Menu 2</span>
+      <span>
+        <p>Bitte beachten:</p>
+      </span>
+      <p>
+        <span>Platzhalter-Menu 2</span>
         Bitte weisen Sie uns auf mögliche Allergien hin. Pakete können wahlweise
         kombiniert und erweitert werden. Platten und Desserts können nicht ohne
         Pakete bestellt werden. Lieferungen innerhalb von München möglich in
