@@ -27,3 +27,8 @@ nav {
   color: var(--gold);
   background-color: var(--background);
 }
+
+svg {
+  width: 3rem;
+  display: none;
+}
