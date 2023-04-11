@@ -1,14 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 import "./NavigationBar.css";
 
 const NavigationBar = () => {
+  // const [show, setShow] = useState(false)
+  // console.log(show);
+
+  const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
+
   return (
     <nav>
       <img src="../images/Logo_Nafas.jpg" alt="Logo Nafas" width="100" />
 
-      <div className="links">
+      {/* links are not visible in mobile mode, means show is set to false */}
+      {/* <div className={`${show ? "links active" : "links"}`}> */}
+      <div className={click ? "links active" : "links"}>
         <Link to="/">Home</Link>
         <Link to="/menu">Menu</Link>
         {/* <Link to="/packages">Pakete</Link> */}
@@ -21,7 +30,22 @@ const NavigationBar = () => {
           Anfrage
         </a>
       </div>
+      
+      {/* <div className='toggleBtn'>
+          <div onClick={() => setShow(!show)}>{show ? (<p  style={{color: 'white'}}><FaTimes /></p>) : (<p size={20} style={{color: 'white'}}><FaBars /></p>)}</div>
+        </div> */}
 
+      {/* <div className="hamburger" onClick={handleClick}>
+        {click ? (
+          <p style={{ color: "white" }}><FaTimes /></p>
+        ) : (
+          <p size={20} style={{ color: "white" }}><FaBars /></p>
+        )}
+      </div> */}
+
+      <div className="hamburger" onClick={handleClick}>
+        {click ? <h3>open</h3> : <h3>close</h3>}
+      </div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 576 512"
