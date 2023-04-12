@@ -92,7 +92,7 @@
     "name": "Fatayer Käse",
     "URL": "images/Fatayer-Kaese.jpg",
     "ingredients": ["", "","",""],
-    "package" : ["1001 Nacht","Sahara"],
+    "package" : ["Aladin","1001 Nacht","Sahara"],
     "category" : "Teigwaren"
   },
   {
@@ -169,7 +169,7 @@
   },
   {
     "id": 21,
-    "name": "Yalangi",
+    "name": "Yalangi Weinblätter",
     "URL": "images/Yalangi.jpg",
     "ingredients": ["Weinblätter", "","",""],
     "package" : ["Aladin","1001 Nacht","Sahara"],

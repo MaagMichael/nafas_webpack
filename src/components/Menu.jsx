@@ -14,15 +14,14 @@ export default function Menu() {
       <CardFilter package="Aladin" category="" className="frame" />
       <Button />
 
-      <p>Paket Aladin (für 10 Personen)</p>
-      <p>Dips</p>
-      <CardFilter package="Aladin" category="Dips" />
-      <p>Salate</p>
-      <CardFilter package="Aladin" category="Salate" />
-      <p>Salate</p>
-      <CardFilter package="Aladin" category="Teigwaren" />
-      <p>Extra</p>
-      <CardFilter package="Aladin" category="Extra" />
+      <p>Paket 1001 Nacht (für 10 Personen)</p>
+      <CardFilter package="1001 Nacht" category="" className="frame" />
+      <Button />
+
+      <p>Paket Sahara (für 10 Personen)</p>
+      <CardFilter package="Sahara" category="" className="frame" />
+      <Button />
+      
       <p>Dessert (für 10 Personen mit Preisaufschlag)</p>
       <CardFilter package="Optional" category="Dessert" />
       <Button />
