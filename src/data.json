@@ -206,5 +206,29 @@
     "ingredients": ["", "","",""],
     "package" : ["Optional"],
     "category" : "Dessert"
+  },
+  {
+    "id": 26,
+    "name": "Sandwich Platte",
+    "URL": "images/Sandwich-Platte.jpg",
+    "ingredients": ["", "","",""],
+    "package" : ["Optional"],
+    "category" : "Extraplatte"
+  },
+  {
+    "id": 27,
+    "name": "Vegatarische Sandwich Platte",
+    "URL": "images/Sandwich-Platte-vegetarisch.jpg",
+    "ingredients": ["", "","",""],
+    "package" : ["Optional"],
+    "category" : "Extraplatte"
+  },
+  {
+    "id": 28,
+    "name": "Käse Platte mit Obst und Nüssen",
+    "URL": "images/Kaese-Obst-Platte.jpg",
+    "ingredients": ["", "","",""],
+    "package" : ["Optional"],
+    "category" : "Extraplatte"
   }
 ]

@@ -22,6 +22,10 @@ export default function Menu() {
       <CardFilter package="Sahara" category="" className="frame" />
       <Button />
       
+      <p>Extra Platten (für 10 Personen mit Preisaufschlag)</p>
+      <CardFilter package="Optional" category="Extraplatte" />
+      <Button />
+
       <p>Dessert (für 10 Personen mit Preisaufschlag)</p>
       <CardFilter package="Optional" category="Dessert" />
       <Button />
