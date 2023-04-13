@@ -43,9 +43,9 @@ const NavigationBar = () => {
         )}
       </div> */}
 
-      <div className="hamburger" onClick={handleClick}>
-        {click ? <h3>open</h3> : <h3>close</h3>}
-      </div>
+      {/* <div className="hamburger" onClick={handleClick}>
+        {click ? <h3 style={{ color: "white" }}>open</h3> : <h3 style={{ color: "white" }}>close</h3>}
+      </div> */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 576 512"
