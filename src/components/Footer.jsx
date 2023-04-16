@@ -5,7 +5,7 @@ import "./Footer.css";
 const NavigationBar = () => {
   return (
     <footer>
-      <img src="../images/Logo_Nafas.jpg" alt="Logo Nafas" width="50" />
+      {/* <img src="../images/Logo_Nafas.jpg" alt="Logo Nafas" width="50" /> */}
 
       <div className="address">
         <p>Rosenheimerstr. 139 in 81671 München</p>

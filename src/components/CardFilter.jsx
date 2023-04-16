@@ -30,7 +30,7 @@ const CardFilter = (props) => {
                   {/* images from URL */}
                   <img src={dish.URL} className="card_image" alt="dish" />
                   {/* text on overlay banner */}
-                  <div class="card_overlay">
+                  <div className="card_overlay">
                     {dish.name} <br />( {dish.category} )
                   </div>
                 </div>
