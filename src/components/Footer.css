@@ -1,0 +1,20 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background);
+    padding: 0.5rem;
+    min-height: 4rem;
+  }
+
+  .address {
+    
+  }
+
+  .address p {
+    color: var(--gold);
+    text-align: center;
+    margin: 0;
+    font-size: 0.75rem;
+  }
+  
