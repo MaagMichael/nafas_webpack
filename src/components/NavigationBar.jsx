@@ -25,12 +25,14 @@ const NavigationBar = () => {
         <Link to="/" onClick={handleClick} onBlur={hide} onFocus={show}>
           Home
         </Link>
+
         <Link to="/menu" onClick={handleClick} onBlur={hide} onFocus={show}>
           Menu
         </Link>
-        <Link to="/contact" onClick={handleClick} onBlur={hide} onFocus={show}>
+
+        {/* <Link to="/contact" onClick={handleClick} onBlur={hide} onFocus={show}>
           Kontakt
-        </Link>
+          </Link> */}
 
         <div className="request">
           {/* https://mailtolinkgenerator.com/ */}
