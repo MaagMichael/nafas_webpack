@@ -11,7 +11,7 @@ const CardFilter = (props) => {
   const bundle = props.package;
   const cluster = props.category;
 
-  const infoDetail = (key) => {alert("You clicked dish ID " + key); };
+  // const infoDetail = (key) => {alert("You clicked dish ID " + key); };
 
   return (
     <div className="card_section">
@@ -25,7 +25,7 @@ const CardFilter = (props) => {
                 <div
                   key={dish.id}
                   className="card_container"
-                  onClick={() => infoDetail(dish.id)}
+                  // onClick={() => infoDetail(dish.id)}
                 >
                   {/* images from URL */}
                   <img src={dish.URL} className="card_image" alt="dish" />
