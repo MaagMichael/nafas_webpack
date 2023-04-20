@@ -16,7 +16,7 @@ const NavigationBar = () => {
     <nav>
       {/* https://bobbyhadz.com/blog/react-image-link */}
       <Link to="/">
-        <img src="../images/Logo_Nafas.jpg" alt="Logo Nafas" width="100" />
+        <img src="../images/Logo_Nafas.jpg" alt="Logo Nafas" />
       </Link>
 
       {/* links are not visible in mobile mode, means show is set to false */}
