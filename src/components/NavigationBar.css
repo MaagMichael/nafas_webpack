@@ -30,7 +30,6 @@ nav img {
   border: 5px solid var(--gold);
   padding: 0.5rem;
   border-radius: 1rem;
-  /* width: 15%; */
   color: var(--gold);
   background-color: var(--background);
 }
@@ -63,9 +62,9 @@ svg {
     flex-direction: column;
     justify-content: space-around;
     padding: .5rem;
-    top: 6rem;
+    top: 5rem;
     display: none;
-    width: 30%;
+    width: 35%;
     height: 30vh;
     transition: 0.4s;
     z-index: 20;

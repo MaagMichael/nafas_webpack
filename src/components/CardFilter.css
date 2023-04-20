@@ -10,8 +10,8 @@
 .card_container{
   position: relative;
   margin: .5rem;
-  width: 10rem;
-  height: 10rem;
+  width: 9rem;
+  height: 9rem;
   border-radius: .5rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   /* overflow: hidden;  */
@@ -43,3 +43,15 @@
 .card_container:hover .overlay {
   /* opacity: 1; */
 } 
+
+
+@media screen and (min-width: 440px) {
+  .card_container{
+    
+    margin: .5rem;
+    width: 11rem;
+    height: 11rem;
+    
+  }
+}
+
