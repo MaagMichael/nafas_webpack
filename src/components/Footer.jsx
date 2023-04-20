@@ -1,19 +1,16 @@
 import React from "react";
-
+import { BsInstagram } from "react-icons/bs"
 import "./Footer.css";
 
 const NavigationBar = () => {
   return (
     <footer>
-      {/* <img src="../images/Logo_Nafas.jpg" alt="Logo Nafas" width="50" /> */}
-
+      {/* del logo, add instagram linl and icon Font Awesome, installing npm i react-icons, media screen */}
       <div className="address">
-        <p>Rosenheimerstr. 139 in 81671 München</p>
-        <p>email: info@nafas.de</p>
-        <p>Tel: 123456789</p>
+        <a className="insta" target="blank" href="https://www.instagram.com/nafas.muenchen/?igshid=YmMyMTA2M2Y%3D"><  BsInstagram fontSize="50" /></a>
+        <p> IMPRESSUM</p>
+        <p>2023 Copyrights reserved by ReDi School</p>
       </div>
-
-      <div className="social_media"></div>
     </footer>
   );
 };
