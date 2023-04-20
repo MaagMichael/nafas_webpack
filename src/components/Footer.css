@@ -20,8 +20,7 @@ footer {
   font-size: 0.75rem;
 }
 
-.insta,
-p {
+footer p, .insta {
   color: var(--gold);
 }
 
