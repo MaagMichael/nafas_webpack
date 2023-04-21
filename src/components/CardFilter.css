@@ -1,18 +1,15 @@
-
+/* in mobile container with all cards to grid with 2f */
 .card_section {
 
   display: grid;
   grid-template-columns: auto auto;
-
-  /* display: flex; */
-  /* flex-wrap: wrap; */
-  /* justify-content: center; */
 }
 
 
 .card_container{
   position: relative;
   margin: .5rem;
+  aspect-ratio: 1 / 1;
   min-width: 7rem;
   min-height: 7rem;
   border-radius: .5rem;
@@ -49,11 +46,8 @@
 
 
 @media screen and (min-width: 440px) {
-  .card_section {
-
-    /* display: grid; */
-    /* grid-template-columns: auto auto; */
-  
+  /* switch container with all cards to flexbox */
+  .card_section { 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
