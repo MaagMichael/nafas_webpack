@@ -1,17 +1,20 @@
 
 .card_section {
-  display: flex;
-  flex-wrap: wrap;
-  /* gap: 1rem; */
-  justify-content: center;
+
+  display: grid;
+  grid-template-columns: auto auto;
+
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
 }
 
 
 .card_container{
   position: relative;
   margin: .5rem;
-  width: 9rem;
-  height: 9rem;
+  min-width: 7rem;
+  min-height: 7rem;
   border-radius: .5rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   /* overflow: hidden;  */
@@ -46,6 +49,16 @@
 
 
 @media screen and (min-width: 440px) {
+  .card_section {
+
+    /* display: grid; */
+    /* grid-template-columns: auto auto; */
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
   .card_container{
     
     margin: .5rem;
