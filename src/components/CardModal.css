@@ -6,7 +6,7 @@
     width: 100vw;
     height: 100vh;
     background-color: #085372;
-    opacity: .7;
+    opacity: .2;
   }
   
   .modal-wrapper {
@@ -43,7 +43,7 @@
     font-weight: 700;
     line-height: 1;
     color: #000;
-    opacity: .3;
+    /* opacity: .3; */
     cursor: pointer;
     border: none;
   }
