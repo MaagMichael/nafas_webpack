@@ -27,7 +27,7 @@ const CardFilter = (props) => {
         Dishes.filter((dish) => dish.package.includes(bundle))
           .filter((dish) => dish.category.includes(cluster))
           .map((dish) => {
-            const id="999";
+            const id="99999999";
             return (
               <div
                 key={dish.id}
