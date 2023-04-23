@@ -17,7 +17,23 @@ const CardFilter = (props) => {
   const { isShowing, toggle } = useModal();
 
   // const infoDetail = (key) => {alert("You clicked dish ID " + key); };
+  const ModalDetails = (key) => {
+    console.log(key);
+    toggle();
+    console.log(isShowing);
 
+    return (
+      <>
+        <Modal isShowing={isShowing} hide={toggle} id={key} />
+      </>
+    );
+  };
+
+  // onClick={() => toggle()}
+  // onClick={toggle}
+  {
+    /* <Modal isShowing={isShowing} hide={toggle} id={dish.id} name={dish.name}/> */
+  }
 
   return (
     <div className="card_section">
@@ -27,19 +43,12 @@ const CardFilter = (props) => {
         Dishes.filter((dish) => dish.package.includes(bundle))
           .filter((dish) => dish.category.includes(cluster))
           .map((dish) => {
-            const id="99999999";
             return (
               <div
                 key={dish.id}
                 className="card_container"
-                // onClick={() => infoDetail(dish.id)}
-                
-                onClick={() => toggle()}
-                // onClick={toggle}
+                onClick={() => ModalDetails(dish.id)}
               >
-                {/* <Modal isShowing={isShowing} hide={toggle} id={dish.id} /> */}
-                <Modal isShowing={isShowing} hide={toggle} id={id} name={dish.name}/>
-
                 {/* images from URL */}
                 <img src={dish.URL} className="card_image" alt="dish" />
                 {/* text on overlay banner */}

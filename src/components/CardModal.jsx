@@ -11,7 +11,7 @@ import "./CardModal.css";
 //  function: the modal component we want to render and the location of 
 // where we want to append the component.
 
-const Modal = ({ isShowing, hide, id, name }) => isShowing ? ReactDOM.createPortal(
+const Modal = ({ isShowing, hide, id }) => isShowing ? ReactDOM.createPortal(
   <React.Fragment>
     <div className="modal-overlay"/>
     <div className="modal-wrapper" aria-modal aria-hidden tabIndex={-1} role="dialog">
@@ -24,9 +24,9 @@ const Modal = ({ isShowing, hide, id, name }) => isShowing ? ReactDOM.createPort
         <p>
           Hello, I'm the modal from dish number {id}.
         </p>
-        <p>
+        {/* <p>
           The name is {name}.
-        </p>
+        </p> */}
       </div>
     </div>
   </React.Fragment>, document.body
