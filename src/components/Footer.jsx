@@ -9,7 +9,7 @@ const NavigationBar = () => {
       <div className="address">
         <a className="insta" target="blank" href="https://www.instagram.com/nafas.muenchen/?igshid=YmMyMTA2M2Y%3D"><  BsInstagram fontSize="50" /></a>
         <p> IMPRESSUM</p>
-        <p>2023 Copyrights reserved by ReDi School</p>
+        <p>2023 Copyrights reserved by ReDI School</p>
       </div>
     </footer>
   );
