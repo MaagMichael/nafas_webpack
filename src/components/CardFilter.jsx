@@ -17,15 +17,15 @@ const CardFilter = (props) => {
   const { isShowing, toggle } = useModal();
 
   // const infoDetail = (key) => {alert("You clicked dish ID " + key); };
-  const ModalDetails = (key) => {
-    console.log(key);
+  const ModalDetails = (id) => {
+    console.log(id);
 
     toggle();
     console.log(isShowing);
 
     return (
       <div>
-        <CardModal isShowing={isShowing} hide={toggle} id={key} />
+        <CardModal isShowing={isShowing} hide={toggle} id={id} />
       </div>
     );
   };

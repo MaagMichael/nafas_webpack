@@ -32,4 +32,5 @@ const CardModal = ({ isShowing, hide, id }) => isShowing ? ReactDOM.createPortal
   </React.Fragment>, document.body
 ) : null;
 
+
 export default CardModal;
