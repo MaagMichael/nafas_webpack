@@ -1,6 +1,6 @@
 import React from "react";
 
-import Modal from "./CardModal";
+import CardModal from "./CardModal";
 import useModal from "./useModal";
 
 import "./CardFilter.css";
@@ -19,22 +19,20 @@ const CardFilter = (props) => {
   // const infoDetail = (key) => {alert("You clicked dish ID " + key); };
   const ModalDetails = (key) => {
     console.log(key);
+
     toggle();
     console.log(isShowing);
 
     return (
-      <>
-        <Modal isShowing={isShowing} hide={toggle} id={key} />
-      </>
+      <div>
+        <CardModal isShowing={isShowing} hide={toggle} id={key} />
+      </div>
     );
   };
 
   // onClick={() => toggle()}
   // onClick={toggle}
-  {
-    /* <Modal isShowing={isShowing} hide={toggle} id={dish.id} name={dish.name}/> */
-  }
-
+  
   return (
     <div className="card_section">
       {Dishes &&
