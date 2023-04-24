@@ -28,8 +28,8 @@
     /* opacity: 0.9; */
     position: relative;
     margin: 8rem auto;
-    border-radius: 1rem;
-    border: 1px solid black;
+    border-radius: .5rem;
+    border: 0.15rem solid var(--background);
     max-width: 80vw;
     padding:1rem;
   }

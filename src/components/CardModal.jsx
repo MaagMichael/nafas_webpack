@@ -19,7 +19,8 @@ const CardModal = ({ isShowing, hide, id }) => isShowing ? ReactDOM.createPortal
 
         <div className="modal-header">
           <button type="button" className="modal-close-button" data-dismiss="modal" aria-label="Close" onClick={hide}>
-            <span aria-hidden="true">&times;close</span>
+            <span aria-hidden="true">close</span>
+            {/* &times; */}
           </button>
         </div>
         
