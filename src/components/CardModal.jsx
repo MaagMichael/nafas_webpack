@@ -27,6 +27,8 @@ const CardModal = ({ isShowing, hide, id }) => isShowing ? ReactDOM.createPortal
         <p>
           Hello, I'm the modal from dish number {id}.
         </p>
+        {/* <img src={dish.URL} className="card_image" alt="dish" /> */}
+        <img src="images/Logo_Nafas.jpg" className="modal_image" alt="dish" />
         {/* <p>
           The name is {name}.
         </p> */}
