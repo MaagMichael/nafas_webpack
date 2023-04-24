@@ -1,9 +1,11 @@
 import React from "react";
+import { useState } from 'react';
 
 import CardModal from "./CardModal";
 import useModal from "./useModal";
 
 import "./CardFilter.css";
+
 
 // read in database
 import Dishes from "../data.json";
@@ -15,23 +17,19 @@ const CardFilter = (props) => {
 
   // using the custom hook
   const { isShowing, toggle } = useModal();
+  const [idDetail, setIdDetail] = useState("");
 
   // const infoDetail = (key) => {alert("You clicked dish ID " + key); };
+  
+  // get id of picked dish and toggle UseState of modal show/no-show
   const ModalDetails = (id) => {
     console.log(id);
-
     toggle();
     console.log(isShowing);
+    setIdDetail(id);
+    console.log("details ",idDetail);
+  }
 
-    return (
-      <div>
-        <CardModal isShowing={isShowing} hide={toggle} id={id} />
-      </div>
-    );
-  };
-
-  // onClick={() => toggle()}
-  // onClick={toggle}
   
   return (
     <div className="card_section">
@@ -46,16 +44,19 @@ const CardFilter = (props) => {
                 key={dish.id}
                 className="card_container"
                 onClick={() => ModalDetails(dish.id)}
+                // onClick={toggle}
               >
                 {/* images from URL */}
                 <img src={dish.URL} className="card_image" alt="dish" />
                 {/* text on overlay banner */}
                 <div className="card_overlay">
                   {dish.name} <br />( {dish.category} )
-                </div>
+                </div>              
               </div>
             );
           })}
+
+      <CardModal isShowing={isShowing} hide={toggle} id={idDetail} />  
     </div>
   );
 };
