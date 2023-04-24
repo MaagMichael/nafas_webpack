@@ -22,17 +22,13 @@ const CardFilter = (props) => {
   // const infoDetail = (key) => {alert("You clicked dish ID " + key); };
   
   // get id of picked dish and toggle UseState of modal show/no-show
-  // const ModalDetails = (id, url, name, pack, category) => {
   const ModalDetails = (dishInfo) => {
     toggle();
-    console.log(dishInfo);
-    // setIdDetail(id, url);
-    setIdDetail(dishInfo.id, dishInfo.name);
-    // console.log("details ",idDetail, url, name, pack, category);
-    console.log("details ",idDetail);
+    // console.log(dishInfo);
+    setIdDetail([dishInfo.id, dishInfo.name]);
+    // console.log("details ",idDetail);
   }
 
-  
   return (
     <div className="card_section">
       {Dishes &&
@@ -58,7 +54,7 @@ const CardFilter = (props) => {
             );
           })}
 
-      <CardModal isShowing={isShowing} hide={toggle} id={idDetail} />  
+      <CardModal isShowing={isShowing} hide={toggle} dishInfo={idDetail} />  
     </div>
   );
 };
