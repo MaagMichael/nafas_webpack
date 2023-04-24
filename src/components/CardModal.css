@@ -60,6 +60,7 @@
 
   .modal_image {
     width:80%;
+    aspect-ratio: 1;
     max-width: 500px;
   }
   
