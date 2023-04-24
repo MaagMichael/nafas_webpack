@@ -1,3 +1,4 @@
+  /* span over the entire screen */
   .modal-overlay {
     position: fixed;
     top: 0;
@@ -8,7 +9,7 @@
     background-color: #085372;
     opacity: .8;
   }
-  
+  /* span over the entire screen */
   .modal-wrapper {
     position: fixed;
     top: 0;
@@ -20,7 +21,7 @@
     overflow-y: auto;
     outline: 0;
   }
-  
+  /* modal with content */
   .modal {
     z-index: 100;
     background: white;
@@ -32,14 +33,14 @@
     max-width: 80vw;
     padding:1rem;
   }
-  
+  /* modal with button to close modal */
   .modal-header {
     display: flex;
     justify-content: flex-end;
   }
   
-  .modal-close-button {
-    font-size: 1.4rem;
+  button.modal-close-button {
+    font-size: 2rem;
     font-weight: 700;
     line-height: 1;
     color: #000;
