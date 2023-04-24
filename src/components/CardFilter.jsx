@@ -17,16 +17,19 @@ const CardFilter = (props) => {
 
   // using the custom hook
   const { isShowing, toggle } = useModal();
-  const [idDetail, setIdDetail] = useState("");
+  const [idDetail, setIdDetail] = useState([]);
 
   // const infoDetail = (key) => {alert("You clicked dish ID " + key); };
   
   // get id of picked dish and toggle UseState of modal show/no-show
-  const ModalDetails = (id) => {
+  // const ModalDetails = (id, url, name, pack, category) => {
+  const ModalDetails = (dishInfo) => {
     toggle();
-    // console.log(isShowing);
-    setIdDetail(id);
-    // console.log("details ",idDetail);
+    console.log(dishInfo);
+    // setIdDetail(id, url);
+    setIdDetail(dishInfo.id, dishInfo.name);
+    // console.log("details ",idDetail, url, name, pack, category);
+    console.log("details ",idDetail);
   }
 
   
@@ -42,8 +45,8 @@ const CardFilter = (props) => {
               <div
                 key={dish.id}
                 className="card_container"
-                onClick={() => ModalDetails(dish.id)}
-                // onClick={toggle}
+                // take object by id(key) of picked dish and send to modal component
+                onClick={() => ModalDetails(dish)}
               >
                 {/* images from URL */}
                 <img src={dish.URL} className="card_image" alt="dish" />

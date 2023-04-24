@@ -60,5 +60,6 @@
 
   .modal_image {
     width:80%;
+    max-width: 500px;
   }
   
