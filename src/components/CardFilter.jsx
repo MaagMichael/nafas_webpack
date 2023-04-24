@@ -24,9 +24,8 @@ const CardFilter = (props) => {
   // get id of picked dish and toggle UseState of modal show/no-show
   const ModalDetails = (dishInfo) => {
     toggle();
-    // console.log(dishInfo);
-    setIdDetail([dishInfo.id, dishInfo.name]);
-    // console.log("details ",idDetail);
+    console.log(dishInfo);
+    setIdDetail([dishInfo.id, dishInfo.name, dishInfo.URL, dishInfo.ingredients,dishInfo.package, dishInfo.category]);
   }
 
   return (

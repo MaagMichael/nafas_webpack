@@ -25,21 +25,14 @@ const CardModal = ({ isShowing, hide, dishInfo }) => isShowing ? ReactDOM.create
         </div>
         
         <p>
-          Hello, I'm the modal from dish number {dishInfo[0]}.
+          Dish name: {dishInfo[1]}. (ID {dishInfo[0]})
         </p>
-        {/* <img src={dish.URL} className="card_image" alt="dish" /> */}
-        <img src="images/Logo_Nafas.jpg" className="modal_image" alt="dish" />
-        <p>
-          The name is {dishInfo[1]}.
-        </p>
-        <p>
-          The URL is {dishInfo[2]}.
-        </p>
+        <img src={dishInfo[2]} className="modal_image" alt="dish" />
         <p>
           The ingredients are {dishInfo[3]}.
         </p>
         <p>
-          It is the packages {dishInfo[4]}.
+          You find this dish in the packages {dishInfo[4]}.
         </p>
         <p>
           The category is {dishInfo[5]}.
