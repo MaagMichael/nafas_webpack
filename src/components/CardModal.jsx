@@ -2,6 +2,7 @@
 
 import React from "react";
 import ReactDOM from "react-dom";
+import { BsXLg } from "react-icons/bs";
 
 import "./CardModal.css";
 
@@ -26,7 +27,6 @@ const CardModal = ({ isShowing, hide, dishInfo }) =>
             role="dialog"
           >
             <div className="modal">
-              
               <div className="modal-header">
                 {/* close button */}
                 <button
@@ -37,30 +37,40 @@ const CardModal = ({ isShowing, hide, dishInfo }) =>
                   // by click close then open modal
                   onClick={hide}
                 >
-                  <span aria-hidden="true">close</span>
-                  {/* &times; */}
+                  <span aria-hidden="true">
+                    <BsXLg />
+                  </span>
                 </button>
               </div>
 
-              <p>
-                Name Gericht: {dishInfo.name}. (ID {dishInfo.id})
-              </p>
-              <img src={dishInfo.URL} className="modal_image" alt="dish" />
-              <p>Kategorie {dishInfo.category}.</p>
-              <p>
-                Die Zutaten sind:
-                {dishInfo.ingredients &&
-                  dishInfo.ingredients.map((detail) => {
-                    return <p>{detail}</p>;
-                  })}
-              </p>
-              <p>
-                Enthalten in Paket:
-                {dishInfo.package &&
-                  dishInfo.package.map((detail) => {
-                    return <p>{detail}</p>;
-                  })}
-              </p>
+              <div className="modal_title_picture">
+                <p>
+                  Gericht: (ID {dishInfo.id}) {dishInfo.name} (
+                  {dishInfo.category})
+                </p>
+                <img src={dishInfo.URL} className="modal_image" alt="dish" />
+              </div>
+              <div className="modal_description">
+                <p>
+                  Enthalten in Paket:
+                  <ul>
+                    {dishInfo.package &&
+                      dishInfo.package.map((detail) => {
+                        return <li>{detail}</li>;
+                      })}
+                  </ul>
+                </p>
+                <p>
+                  Die Zutaten sind:
+                  <ul>
+                    {dishInfo.ingredients &&
+                      dishInfo.ingredients.map((detail) => {
+                        return <li>{detail}</li>;
+                      })}
+                  </ul>
+                </p>
+              </div>
+              
             </div>
           </div>
         </React.Fragment>,

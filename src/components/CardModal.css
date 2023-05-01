@@ -21,46 +21,66 @@
     overflow-y: auto;
     outline: 0;
   }
+  
   /* modal with content */
   .modal {
+    display: flex;
+    flex-direction: column;    
     z-index: 100;
     background: white;
-    /* opacity: 0.9; */
     position: relative;
     margin: 3rem auto;
     border-radius: .5rem;
-    border: 0.15rem solid var(--background);
     max-width: 80vw;
-    padding:1rem;
+    /* padding:.5rem; */
   }
+  /* ################## modal content from here #################### */
+  
   /* modal with button to close modal */
   .modal-header {
     display: flex;
     justify-content: flex-end;
   }
   
-  button.modal-close-button {
-    font-size: 2rem;
-    font-weight: 700;
-    line-height: 1;
+  button .modal-close-button {
+    /* font-size: 2rem; */
+    /* font-weight: 700; */
+    /* line-height: 1; */
     color: #000;
-    /* opacity: .3; */
     cursor: pointer;
     border: none;
   }
   
   .modal-header button {
-    font-size: .9rem;
+    font-size: 1.25rem;
     font-weight: 700;
     border: none;
-    border-radius: 3px;
-    padding: .3rem 1rem;
+    padding: .7rem .5rem;
     margin-left: .5rem;
+    background-color: white;
+    border-radius: .5rem;
+  }
+
+  .modal_title_picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
   }
 
   .modal_image {
-    width:80%;
+    width:90%;
+    margin: 0 auto;
     aspect-ratio: 1 / 1;
+    border-radius: .5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     max-width: 500px;
   }
-  
+
+  .modal_description, .modal_description ul{
+    padding: 0 1rem;
+  }
+  @media screen and (max-width: 440px) {
+
+
+    
+  }

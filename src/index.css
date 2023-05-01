@@ -17,4 +17,8 @@
   /* --gold: #ffc000; */
 }
 
+h1,p{
+  color: var(--background);
+  margin: 1rem;
+}
 

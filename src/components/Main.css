@@ -5,14 +5,12 @@ main {
 }
 
 
-span {
+main span {
   font-weight: bold;
 }
-h1,
-p {
-  color: var(--background);
+main h1,
+main p {  
   text-align: justify;
-  margin: 1rem;
 }
 
 section {
