@@ -42,35 +42,39 @@ const CardModal = ({ isShowing, hide, dishInfo }) =>
                   </span>
                 </button>
               </div>
-
-              <div className="modal_title_picture">
-                <p>
-                  Gericht: (ID {dishInfo.id}) {dishInfo.name} (
-                  {dishInfo.category})
-                </p>
-                <img src={dishInfo.URL} className="modal_image" alt="dish" />
-              </div>
-              <div className="modal_description">
-                <p>
-                  Enthalten in Paket:
-                  <ul>
-                    {dishInfo.package &&
-                      dishInfo.package.map((detail) => {
-                        return <li>{detail}</li>;
-                      })}
-                  </ul>
-                </p>
-                <p>
-                  Die Zutaten sind:
-                  <ul>
-                    {dishInfo.ingredients &&
-                      dishInfo.ingredients.map((detail) => {
-                        return <li>{detail}</li>;
-                      })}
-                  </ul>
-                </p>
-              </div>
               
+              <div className="modal_no_mobile">
+
+                <div className="modal_title_picture">
+                  <p>
+                    Gericht: (ID {dishInfo.id}) {dishInfo.name} (
+                    {dishInfo.category})
+                  </p>
+                  <img src={dishInfo.URL} className="modal_image" alt="dish" />
+                </div>
+
+                <div className="modal_description">
+                  <p>
+                    Enthalten in Paket:
+                    <ul>
+                      {dishInfo.package &&
+                        dishInfo.package.map((detail) => {
+                          return <li>{detail}</li>;
+                        })}
+                    </ul>
+                  </p>
+                  <p>
+                    Die Zutaten sind:
+                    <ul>
+                      {dishInfo.ingredients &&
+                        dishInfo.ingredients.map((detail) => {
+                          return <li>{detail}</li>;
+                        })}
+                    </ul>
+                  </p>
+                </div>
+
+              </div>
             </div>
           </div>
         </React.Fragment>,
