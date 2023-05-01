@@ -27,7 +27,7 @@
     background: white;
     /* opacity: 0.9; */
     position: relative;
-    margin: 8rem auto;
+    margin: 3rem auto;
     border-radius: .5rem;
     border: 0.15rem solid var(--background);
     max-width: 80vw;

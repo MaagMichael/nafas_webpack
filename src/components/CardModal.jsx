@@ -26,6 +26,7 @@ const CardModal = ({ isShowing, hide, dishInfo }) =>
             role="dialog"
           >
             <div className="modal">
+              
               <div className="modal-header">
                 {/* close button */}
                 <button
