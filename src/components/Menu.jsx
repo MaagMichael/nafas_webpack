@@ -47,7 +47,7 @@ export default function Menu() {
       <span>
         <p>Bitte beachten:</p>
       </span>
-      <p>
+      <p className="menu_note">
         <span>Platzhalter-Menu 2</span>
         Bitte weisen Sie uns auf mögliche Allergien hin. Pakete können wahlweise
         kombiniert und erweitert werden. Platten und Desserts können nicht ohne

@@ -7,7 +7,7 @@ import "./NavigationBar.css";
 const NavigationBar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
-  console.log("click ", click);
+  // console.log("click ", click);
 
   const hide = () => setClick(false);
   const show = () => setClick(true);
