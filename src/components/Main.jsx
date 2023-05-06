@@ -2,6 +2,7 @@ import React from "react";
 
 import "./Main.css";
 import Button from "./Button";
+import UpButton from "./UpButton";
 import Slider from "./Slider";
 
 // import images for background images
@@ -113,6 +114,9 @@ export default function Main() {
           <div className="main overlay">Bild(er) 4</div>
         </div>
       </section>
+
+      <UpButton/>
+
     </main>
   );
 }

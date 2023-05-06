@@ -1,6 +1,7 @@
 import React from "react";
 import CardFilter from "./CardFilter";
 import Button from "./Button";
+import UpButton from "./UpButton";
 
 import "./Menu.css";
 
@@ -54,6 +55,9 @@ export default function Menu() {
         Pakete bestellt werden. Lieferungen innerhalb von München möglich in
         Höhe von 50 €. Kostenlose Abholung möglich in Kirchheim bei München.
       </p>
+
+      <UpButton/>
+      
     </div>
   );
 }
