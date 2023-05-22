@@ -22,6 +22,7 @@ export default function Main() {
     <main>
       <section>
         <div className="main_center">
+          <h1>Herzlich Willkommen bei Nafas</h1>
           <div
             className="main_image"
             style={{ backgroundImage: `url(${picture1})` }}
@@ -32,13 +33,15 @@ export default function Main() {
 
         <div className="main_text1">
           <p>
-            <span>Platzhalter-Home 1</span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam impedit
-            eum tenetur architecto odit possimus explicabo ea? Deleniti tempora
-            impedit modi autem error corrupti ut eveniet inventore possimus
-            nulla dicta architecto fuga pariatur obcaecati, iste doloremque
-            totam laudantium beatae consequatur magnam! Beatae dolorum non
-            facilis sequi numquam id architecto hic.
+            <span>Nafas </span>
+            bedeutet in der arabischen Sprache „ein Gefühl und Geschmack für
+            besonderes Essen“ zu haben. Speziell in Syrien hat die kulinarische
+            Küche einen hohen Stellenwert. Aus diesem Grund will ihnen das Team
+            von Nafas einen Einblick in die Vielfalt der syrischen Küche geben.
+            Wählen Sie aus verschiedenen Gerichten und Pakete aus. Egal welche
+            Feierlichkeiten Sie planen, wir sorgen für einen unvergesslichen
+            kulinarischen Moment. Unser Anspruch ist es, Ihnen frische,
+            außergewöhnliche und vielfältige Speisen auf Ihrem event zu zaubern.
           </p>
           <Button />
         </div>
@@ -59,13 +62,13 @@ export default function Main() {
           <div className="main_center main_text1">
             <h1>Anlässe</h1>
             <p>
-              <span>Platzhalter-Home 2</span>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-              impedit eum tenetur architecto odit possimus explicabo ea?
-              Deleniti tempora impedit modi autem error corrupti ut eveniet
-              inventore possimus nulla dicta architecto fuga pariatur obcaecati,
-              iste doloremque totam laudantium beatae consequatur magnam! Beatae
-              dolorum non facilis sequi numquam id architecto hic.
+              <span>Schaffen </span>
+              Sie einen unvergesslichen Moment und wählen Sie aus unseren
+              zusammengestellten Paketen. Auch individuelle Pakete sind möglich.
+              Nafas hat sich auf kleine events spezialisiert, sodass wir
+              Bestellungen für bis zu 50 Gäste annehmen. Egal ob Geburtstag,
+              Teamevent, Einweihungsfeier oder weitere besondere Anlässe, wir
+              machen Ihr event zu einem unvergesslichen Moment.
             </p>
           </div>
         </div>
@@ -102,21 +105,21 @@ export default function Main() {
 
       <hr />
 
-      {/* <section>
-        <h1>Statistik (Platzhalter Home 3)</h1>
-      </section>
-
-      <hr /> */}
-
       <section>
+        <div className="main_text1">
+          <p>
+            <span>Verwöhnen </span>
+            Sie Ihre Gäste mit kulinarischen Besonderheiten aus dem Orient.
+          </p>
+        </div>
+
         <div className="main_slider">
           <Slider />
           <div className="main overlay">Bild(er) 4</div>
         </div>
       </section>
 
-      <UpButton/>
-
+      <UpButton />
     </main>
   );
 }
