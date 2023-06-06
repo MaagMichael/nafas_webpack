@@ -7,7 +7,7 @@ import "./NavigationBar.css";
 const NavigationBar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
-  console.log("click ", click);
+  // console.log("click ", click);
 
   const hide = () => setClick(false);
   const show = () => setClick(true);
@@ -16,7 +16,7 @@ const NavigationBar = () => {
     <nav>
       {/* https://bobbyhadz.com/blog/react-image-link */}
       <Link to="/">
-        <img src="../images/Logo_Nafas.jpg" alt="Logo Nafas" width="100" />
+        <img src="../images/Logo_Nafas.jpg" alt="Logo Nafas" />
       </Link>
 
       {/* links are not visible in mobile mode, means show is set to false */}
@@ -25,12 +25,14 @@ const NavigationBar = () => {
         <Link to="/" onClick={handleClick} onBlur={hide} onFocus={show}>
           Home
         </Link>
+
         <Link to="/menu" onClick={handleClick} onBlur={hide} onFocus={show}>
           Menu
         </Link>
-        <Link to="/contact" onClick={handleClick} onBlur={hide} onFocus={show}>
+
+        {/* <Link to="/contact" onClick={handleClick} onBlur={hide} onFocus={show}>
           Kontakt
-        </Link>
+          </Link> */}
 
         <div className="request">
           {/* https://mailtolinkgenerator.com/ */}

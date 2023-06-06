@@ -1,0 +1,15 @@
+.back-to-top {
+    position: fixed;
+    bottom: 5rem;
+    right: 1rem;
+    font-size: 30px;
+    background: var(--background);
+    color: var(--main-text);
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0 5px 10px #ccc;
+  }
+  .back-to-top:hover {
+    color: var(--gold)
+  }

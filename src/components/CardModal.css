@@ -1,0 +1,90 @@
+  /* span over the entire screen */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1040;
+    width: 100vw;
+    height: 100vh;
+    background-color: #085372;
+    opacity: .8;
+  }
+  /* span over the entire screen */
+  .modal-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    outline: 0;
+  }
+  
+  /* modal with content */
+  .modal {
+    display: flex;
+    flex-direction: column;    
+    z-index: 100;
+    background: white;
+    position: relative;
+    margin: 3rem auto;
+    border-radius: .5rem;
+    max-width: 80vw;
+    /* padding:.5rem; */
+  }
+  /* ################## modal content from here #################### */
+  
+  /* modal with button to close modal */
+  .modal-header {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  button .modal-close-button {
+    /* font-size: 2rem; */
+    /* font-weight: 700; */
+    /* line-height: 1; */
+    color: #000;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .modal-header button {
+    font-size: 1.25rem;
+    font-weight: 700;
+    border: none;
+    padding: .7rem .5rem;
+    margin-left: .5rem;
+    background-color: white;
+    border-radius: .5rem;
+  }
+
+  .modal_title_picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+  }
+
+  .modal_image {
+    width:90%;
+    object-fit: cover; 
+    margin: 0 auto;
+    aspect-ratio: 1 / 1;
+    border-radius: .5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 400px;
+  }
+
+  .modal_description, .modal_description ul{
+    padding: 0 1rem;
+  }
+  @media screen and (min-width: 500px) {
+    .modal_no_mobile {
+      display: flex;
+      padding: 1rem;
+    }
+
+
+  }

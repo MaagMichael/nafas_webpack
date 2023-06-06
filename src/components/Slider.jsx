@@ -10,62 +10,62 @@ import "./Slider.css";
 const photos = [
   {
     id: 'p1',
-    title: 'Photo 1',
+    title: 'Musakhan',
     url: 'images/slider 1.jpg',
   },
   {
     id: 'p2',
-    title: 'Photo 2',
+    title: 'Yalangi Weinblätter',
     url: 'images/slider 2.jpg',
   },
   {
     id: 'p3',
-    title: 'Photo 3',
+    title: 'Fatayer Käse',
     url: 'images/slider 3.jpg',
   },
   {
     id: 'p4',
-    title: 'Photo 4',
+    title: 'Humus',
     url: 'images/slider 4.jpg',
   },
   {
     id: 'p5',
-    title: 'Photo 5',
+    title: 'Sambusak Hackfleisch',
     url: 'images/slider 5.jpg',
   },
   {
     id: 'p6',
-    title: 'Photo 6',
+    title: 'Griess und Mascarpone Rolle',
     url: 'images/slider 6.jpg',
   },
   {
     id: 'p7',
-    title: 'Photo 7',
+    title: 'Mutabal',
     url: 'images/slider 7.jpg',
   },
   {
     id: 'p8',
-    title: 'Photo 8',
+    title: 'Mini Pancake mit Macarpone und Pistazien',
     url: 'images/slider 8.jpg',
   },
   {
     id: 'p9',
-    title: 'Photo 9',
+    title: 'Mutabal',
     url: 'images/slider 9.jpg',
   },
   {
     id: 'p10',
-    title: 'Photo 10',
+    title: 'Fatayer Käse',
     url: 'images/slider 10.jpg',
   },
   {
     id: 'p11',
-    title: 'Photo 11',
+    title: 'Yalangi Weinblätter',
     url: 'images/slider 11.jpg',
   },
   {
     id: 'p12',
-    title: 'Photo 12',
+    title: 'Omelet',
     url: 'images/slider 12.jpg',
   }
 ];
