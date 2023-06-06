@@ -6,9 +6,9 @@ import UpButton from "./UpButton";
 import Slider from "./Slider";
 
 // import images for background images
-import picture1 from "../images/picture1.png";
-import picture2 from "../images/picture2.png";
-import picture3 from "../images/picture3.png";
+import picture1 from "../images/homepicture1.png";
+import picture2 from "../images/homepicture2.png";
+import picture3 from "../images/homepicture3.png";
 
 export default function Main() {
   const playMovie = (e) => {
