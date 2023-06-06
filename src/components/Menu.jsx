@@ -49,8 +49,8 @@ export default function Menu() {
         <p>Bitte beachten:</p>
       </span>
       <p className="menu_note">
-        <span>Platzhalter-Menu 2</span>
-        Bitte weisen Sie uns auf mögliche Allergien hin. Pakete können wahlweise
+        <span>Bitte </span>
+        weisen Sie uns auf mögliche Allergien hin. Pakete können wahlweise
         kombiniert und erweitert werden. Platten und Desserts können nicht ohne
         Pakete bestellt werden. Lieferungen innerhalb von München möglich in
         Höhe von 50 €. Kostenlose Abholung möglich in Kirchheim bei München.
