@@ -10,7 +10,7 @@ export default function UpButton() {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.pageYOffset > 300) {
+      if (window.scrollY > 300) {
         setShowUpButton(true);
       } else {
         setShowUpButton(false);
